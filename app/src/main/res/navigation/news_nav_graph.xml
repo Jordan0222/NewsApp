@@ -5,7 +5,7 @@
     app:startDestination="@id/breakingNewsFragment">
     <fragment
         android:id="@+id/breakingNewsFragment"
-        android:name="com.jordan.newsapp.ui.BreakingNewsFragment"
+        android:name="com.jordan.newsapp.ui.fragment.BreakingNewsFragment"
         android:label="BreakingNewsFragment" >
         <action
             android:id="@+id/action_breakingNewsFragment_to_articleFragment"
@@ -17,11 +17,11 @@
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
-        android:name="com.jordan.newsapp.ui.ArticleFragment"
+        android:name="com.jordan.newsapp.ui.fragment.ArticleFragment"
         android:label="ArticleFragment" />
     <fragment
         android:id="@+id/searchNewsFragment"
-        android:name="com.jordan.newsapp.ui.SearchNewsFragment"
+        android:name="com.jordan.newsapp.ui.fragment.SearchNewsFragment"
         android:label="SearchNewsFragment"
         app:startDestination="@id/action_searchNewsFragment_to_articleFragment">
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
-        android:name="com.jordan.newsapp.ui.SavedNewsFragment"
+        android:name="com.jordan.newsapp.ui.fragment.SavedNewsFragment"
         android:label="SavedNewsFragment" >
         <action
             android:id="@+id/action_savedNewsFragment_to_articleFragment"
